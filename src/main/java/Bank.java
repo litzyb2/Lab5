@@ -5,12 +5,18 @@
  * both classes, by fixing checkstyle errors, defining constructors, getters and setters, and
  * accessing private variables.
  *
- * @see <a href="https://cs125.cs.illinois.edu/lab/5/">Lab 5 Description</a>
+ * @see <a href="https://cs125.cs.illinois.edu/lab/5/">Lab 5 Description</a>=https://github.com/litzyb2/Lab5.git
  */
 public class Bank {
+    /**
+     * private sets bankName to private in the class.
+     */
 
-    public String bankName;
+    private String bankName;
 
+    /**
+     * sets bankName to a string in the class.
+     */
     public Bank() {
         bankName = "Illini Bank";
     }
